@@ -1,0 +1,142 @@
+@font-face {
+	font-family: 'Klavika Regular';
+	src: url(fonts/Klavika-Regular.otf);
+} 
+
+.x-toolbar{
+	min-height: 3.6em !important;
+}
+.x-toolbar-dark{
+    background: url('images/seccion_320x57.png') repeat-x;
+    border: 0 !important;
+}
+.x-form .x-scroll-container{
+	background-color: none !important;
+}
+.x-form-label{
+	color:#666;
+}
+/** resultado **/
+.x-form-fieldset{
+	margin:.5em .5em 1em;
+}
+
+/** textos **/
+
+.x-fuente-klavica{
+	font-family: 'Klavika Regular';
+	color: #87888a;
+}
+
+.x-fuente-klavica.blanca{
+	color: #fff !important;
+}
+.x-fuente-klavica.small{
+	font-size: 0.7em; font-weight:lighter;
+}
+
+.title{
+	font-size: 1em;	font-weight:bold;
+}
+.x-form-fieldset-title{
+	color:#fff; font-size:1.5em; text-shadow: none; font-weight:lighter;
+}
+/** tabbar **/
+
+.x-tabbar.x-docked-bottom{
+	height:4.5em;
+}
+.x-tabbar-dark{
+	background-color: #008a45 !important;
+	background-image: none !important;
+	border: none;
+}
+
+.x-tabbar.x-docked-bottom .x-tab{
+	width:25%;
+	border-radius: 0px !important;
+	border: none !important;
+	height: 100%;
+	padding-top:10px;
+}
+
+.x-tabbar-dark.x-docked-bottom .x-tab-active{
+	background-color: #8eb735; background-image: none; -webkit-box-shadow: none !important; padding-top:10px;
+}
+
+.x-button-icon{
+	width: 4em; height: 4em;
+}
+.x-tabbar.x-docked-bottom .x-tab .x-button-icon{
+	width: 3.5em !important; height: 2em; text-align:center; padding-top:10px; 
+}
+.x-button-icon.valores-icon{
+	background: 0/40px url('images/icon_valores.svg') no-repeat; background-position-x:center;
+}
+.x-button-icon.datos-icon{
+	background: 0/40px url('images/icon_resultados.svg') no-repeat; background-position-x:center;
+}
+.x-button-icon.tablas-icon{
+	background: 0/40px url('images/icon_tablas.svg') no-repeat; background-position-x:center;
+}
+.x-button-icon.acerca-icon{
+	background: 0/40px url('images/icon_links.svg') no-repeat; background-position-x:center;
+}
+.x-tabbar.x-docked-bottom .x-tab .x-button-label, .x-tabbar.x-docked-bottom .x-tab .x-badge, .x-tabbar.x-docked-bottom .x-tab .x-hasbadge .x-badge, .x-hasbadge .x-tabbar.x-docked-bottom .x-tab .x-badge{
+	font-family: 'Klavika Regular'; font-size: 1em !important; color: #fff; padding-top:10px; font-weight:lighter;
+}
+.boton-accion{
+	background: #2d9a37 !important; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2d9a37 0%, #00af4f 50%, #2d9a37 80%, #008a45 100%) !important; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2d9a37), color-stop(50%,#00af4f), color-stop(80%,#2d9a37), color-stop(100%,#008a45)) !important; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2d9a37 0%,#00af4f 50%,#2d9a37 51%,#008a45 100%) !important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2d9a37 0%,#00af4f 50%,#2d9a37 80%,#008a45 100%) !important; /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2d9a37 0%,#00af4f 50%,#2d9a37 80%,#008a45 100%) !important; /* IE10+ */
+	background: linear-gradient(to bottom,  #2d9a37 0%,#00af4f 50%,#2d9a37 80%,#008a45 100%) !important; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d9a37', endColorstr='#008a45',GradientType=0 ) !important; /* IE6-9 */
+	font-family: 'Klavika Regular'; color: #fff; margin-right: 20px;
+	border: none !important;
+}
+
+#ext-calcpanel-1{
+	background: #f6f6f6;
+	font-family: 'Klavika Regular'; color: #fff;
+	border: none !important;
+}
+
+/** Login **/
+
+#panel-link, .fondo-login{
+	background: #2d9a37 !important; /* Old browsers */
+	background: -moz-linear-gradient(top,  #426c21 0%, #426c21 50%, #018a44 100%) !important; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#426c21), color-stop(50%,#426c21), color-stop(100%,#018a44)) !important; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #426c21 0%, #426c21 50%, #018a44 100%) !important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #426c21 0%, #426c21 50%,#018a44 100%) !important; /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #426c21 0%, #426c21 50%,#018a44 100%) !important; /* IE10+ */
+	background: linear-gradient(to bottom,  #426c21 0%, #426c21 50%,#018a44 100%) !important; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d9a37', endColorstr='#008a45',GradientType=0 ) !important; /* IE6-9 */
+	font-family: 'Klavika Regular'; color: #fff;
+	border: none !important;
+}
+.titulo-formulario{
+	color:#fff;
+}
+
+.boton-amarillo{
+	background: #ffe14d !important; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffe14d 0%, #ffe14d 50%,#ffd400 51%) !important; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffe14d),color-stop(50%,#ffe14d), color-stop(51%,#ffd400)) !important; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffe14d 0%, #ffe14d 50%, #ffd400 51%) !important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffe14d 0%,#ffe14d 50%,#ffd400 51%) !important; /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffe14d 0%,#ffe14d 50%,#ffd400 51%) !important; /* IE10+ */
+	background: linear-gradient(to bottom,  #ffe14d 0%,#ffe14d 50%,#ffd400 51%) !important; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe14d', endColorstr='#ffd400',GradientType=0 ) !important; /* IE6-9 */
+	font-family: 'Klavika Regular'; color: #58585a !important; text-align: center; height: 2em;
+	border: none !important;
+}
+#loginForm .x-field{
+	min-height: 1.5em !important;
+}
+#loginForm .campo-texto input{
+	font-weight: lighter; min-height: 1.5em !important; padding: .2em .4em;
+}
